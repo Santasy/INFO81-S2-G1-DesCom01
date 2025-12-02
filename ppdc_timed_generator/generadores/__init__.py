@@ -1,8 +1,8 @@
 from .generador_uniforme import GeneradorUniforme
-from .generador_constante import GeneradorConstante
+from .generador_batido import GeneradorBatido
 
 __all__ = [
     # Core classes
     "GeneradorUniforme",
-    "GeneradorConstante",
+    "GeneradorBatido",
 ]
