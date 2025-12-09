@@ -48,6 +48,18 @@
             "env": {
                 "PYTHONPATH": "${workspaceFolder}"
             }
+        },
+        {
+            "name": "Example: 02_test_batidas",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/ppdc_timed_generator/examples/02_test_batidas.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
         }
     ]
 }
